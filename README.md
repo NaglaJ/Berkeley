@@ -5,7 +5,9 @@ Predict the best genre for musicians to categorize their releases, so that their
 The Data:
 Dataset: Million Song Dataset + Spotify + Last.fm
 Field Descriptions: Field list | Million Song Dataset
-Findings:
+
+
+Findings(https://github.com/NaglaJ/Berkeley/blob/Capstone/Capstone.ipynb)
 My initial approach was to use exclusively song characteristics like beats per minute, valence, instrumentalness, etc., to predict a genre.  As you can see from the definitions below for genre there is not scientific approach to the categorization.  This approach yielded only a 54.5% accuracy using RandomForrestClassifier.
 My next approach will include additional data/features, specifically date of the song (my theory is that the older songs fell more neatly into a category) and tags which include several genres and characteristics included in the song.
 
